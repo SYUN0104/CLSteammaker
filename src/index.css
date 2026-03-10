@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* 그 아래에 배경색 등 커스텀 스타일을 유지해도 좋습니다 */
+body {
+  background-color: #f8fafc;
+}
