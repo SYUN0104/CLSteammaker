@@ -54,10 +54,10 @@ function App() {
         {/* 헤더 부분 */}
         <div className="bg-gradient-to-r from-indigo-600 to-purple-600 p-8 text-center">
           <h1 className="text-4xl font-extrabold text-white tracking-tight drop-shadow-md">
-            팀 매칭 마스터 🎲
+            창발 LeetCode Study 팀 매칭 🎲
           </h1>
           <p className="mt-3 text-indigo-100 text-lg font-medium">
-            이름을 입력하면 가장 공평하고 완벽한 팀을 만들어 드립니다.
+            이름을 입력해주세요.
           </p>
         </div>
 

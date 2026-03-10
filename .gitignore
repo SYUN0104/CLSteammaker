@@ -1,4 +1,18 @@
-# Logs
+# 패키지 의존성 (용량이 매우 커서 절대 깃허브에 올리면 안 됩니다!)
+node_modules/
+
+# 빌드 결과물 (npm run build 시 생성되는 폴더)
+dist/
+dist-ssr/
+
+# 환경 변수 및 로컬 설정 파일 (보안을 위해 제외)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 로그 파일
 logs
 *.log
 npm-debug.log*
@@ -7,12 +21,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
+# 에디터 및 운영체제 임시 파일 (다른 개발자와 충돌 방지)
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -22,3 +31,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+Thumbs.db
+
+# 테스트 커버리지 및 캐시
+coverage/
+.npm
+.eslintcache
